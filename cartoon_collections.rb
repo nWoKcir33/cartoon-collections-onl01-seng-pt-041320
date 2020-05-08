@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)
-  dwarves.map do |dwarf|
-    dwarves.each_with_index {|dwarf, index|
+  i = 0 
+  while i < 4 
 end
 
 def summon_captain_planet# code an argument here
