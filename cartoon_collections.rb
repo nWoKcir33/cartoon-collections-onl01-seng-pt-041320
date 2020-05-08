@@ -18,6 +18,7 @@ def long_planeteer_calls(array)
     false
   else array.any? {|i| i.length >= 4}
     true
+    i += 1
   end
 end
 
