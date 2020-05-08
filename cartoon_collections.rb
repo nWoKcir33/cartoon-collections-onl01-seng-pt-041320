@@ -14,18 +14,13 @@ end
 
 def long_planeteer_calls(array)
   i = 0 
-  new_array = []
-  while i < array.length
-  new_array << yield(array[])
-  i += 1 
+  if array.any? {|i| i.length < 4 
+    false
+  else
+    true
+  end
 end
 
-if new_array.include? (false)
-  false
-else
-  true 
- end
-end
 
 def find_the_cheese# code an argument here
   # the array below is here to help
